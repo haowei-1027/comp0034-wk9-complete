@@ -59,7 +59,7 @@ row_three = dbc.Row([
 row_four = dbc.Row([
     dbc.Col(children=[
         dcc.Graph(id="map", figure=map)
-    ], width=8, align="start"),
+    ], width=6, align="start"),
     dbc.Col(children=[
         html.Br(),
         html.Div(id='card'),
